@@ -1,6 +1,6 @@
-function() {
-  // Obtenha o valor da variável ecommerce.items
-  var items = {{ecommerce.items}}; // Certifique-se de que a variável "ecommerce.items" está corretamente configurada no Google Tag Manager.
+function() { 
+  // Obtenha o valor da variável ecommerce.items.
+  var items = {{ecommerce.items}}; // Substitua {{ecommece.items}} pelo nome da sua variável de items no GTM.
 
   // Crie um novo array para armazenar os itens modificados
   var items_new = [];
