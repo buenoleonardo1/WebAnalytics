@@ -1,3 +1,8 @@
+  // No GTM, crie uma nova variável de JavaScript personalizada. 
+  // Cole o código abaixo e salve (ou modifique de acordo com sua necessidade).
+  // Adicione esta variável em todas tags do GA em que há necessidade da variável "items".
+
+
 function() { 
   // Obtenha o valor da variável ecommerce.items.
   var items = {{ecommerce.items}}; // Substitua {{ecommece.items}} pelo nome da sua variável de items no GTM.
