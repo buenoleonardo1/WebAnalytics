@@ -18,4 +18,5 @@ function getItemIds() {
   
   return itemIds;
   // Retorna o array "itemIds" que contém os IDs dos itens.
+  // Se quiser retornar uma string use "return itemIds.join(',')"
 }
